@@ -38,3 +38,37 @@
     color: white;
   }
 }
+
+.main-container {
+  width: 100%;
+  height: calc(100vh - 120px);
+}
+
+.main-container h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.main-container section:nth-child(2) {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 17%;
+  top: 200px;
+}
+
+.main-container section:nth-child(3) {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  right: 9%;
+  top: 200px;
+}
+
+.main-container section:nth-child(2) article:nth-child(1),
+.main-container section:nth-child(2) article:nth-child(2),
+.main-container section:nth-child(2) article:nth-child(3) {
+  height: 30%;
+  width: 100%;
+}
